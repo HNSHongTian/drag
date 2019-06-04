@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html5学习</title>
+    <style>
+        #canvas {
+            position: absolute;
+            top:100px;
+
+        }
+        #father {
+            width: 1000px;
+            height: 800px;
+            /*background-color: rgb(226, 117, 184);*/
+            position: relative;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            cursor: move;
+        }
+        #block {
+            position: absolute;
+            left: 600px;
+            top: 100px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+<div id="father">
+    <canvas width="310" height="155" id="block"></canvas>
+    <canvas width="310" height="155" id="canvas"></canvas>
+
+</div>
+<script src="learning.js"></script>
+</body>
+</html>
